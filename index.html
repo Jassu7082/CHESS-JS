@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/chessboard-1.0.0.min.css">
-    <title>ꉓꃅꍟꌗꌗ ꁅꍏꎭꍟ</title>
+    <title>Chess Game</title>
 </head>
 
 <body>
-
     <div class="container">
-        <h1>ꉓꃅꍟꌗꌗ ꁅꍏꎭꍟ</h1>
+        <h1>Chess Game</h1>
         <div class="board" id="board"></div>
         <div class="buttons">
             <button class="play-again">Play Again</button>
             <button class="set-pos">Set Position</button>
             <button class="flip-board">Flip Board</button>
+            <button class="voice-control">Voice Control for FEN</button>
         </div>
         <div id="move-history" class="move-history"></div>
+        <div><p>for voice say "move e2 to e4"</p></div>
+        <div id="voice-text" class="voice-text"></div>
+        <div id="voice-log" class="voice-log"></div>
     </div>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/chessboard-1.0.0.min.js"></script>
